@@ -74,6 +74,13 @@ registerMicroApps(
             activeRule: genActiveRule('/app1'),
             props: msg,
         },
+        {
+            name: 'sub-app-2',
+            entry: '//localhost:8092',
+            render,
+            activeRule: genActiveRule('/app2'),
+            props: msg,
+        },
     ],
     {
         beforeLoad: [

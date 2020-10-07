@@ -4,8 +4,8 @@
         <div id="nav"
              v-else>
             <button @click="clickHandle">主页面状态修改</button>
-            <div @click="pageChange('/app1/home')">home</div>
-            <div @click="pageChange('/app1/about')">about</div>
+            <div @click="pageChange('/app1/home')">app1</div>
+            <div @click="pageChange('/app2/home')">app2</div>
         </div>
         <!-- 子应用 -->
         <div id="root-view"
